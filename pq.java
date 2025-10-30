@@ -12,7 +12,7 @@ class Student implements Comparable<Student> {
 
     @Override
     public int compareTo(Student  s2) {
-        return this.rank - s2.rank; // smaller rank = higher priority
+        return this.rank - s2.rank; 
     }
 }
 
